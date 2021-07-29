@@ -5157,6 +5157,7 @@ textarea.form-control-lg {
 }
 
 .btn-close {
+  margin: auto;
   box-sizing: content-box;
   width: 1em;
   height: 1em;
@@ -5364,7 +5365,7 @@ textarea.form-control-lg {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 750px;
     margin: 1.75rem auto;
   }
 
@@ -11076,7 +11077,11 @@ html {
 }
 
 
-/* My CSS */
+/* ----------- My CSS ----------- */
+
+.close{
+  margin: auto;
+}
 
 .skillIcons {
   display: block;
@@ -11088,7 +11093,22 @@ html {
   height: 75px;
   display: block;
   margin: 12px auto;
+}
 
+.skill:hover{
+  font-size: 0.9em;
+}
+
+.skillImg:hover{
+  font-size: 0.9em;
+  width: 45%;
+}
+
+.skillIcons2:hover {
+  width: 45%;
+  height: 75px;
+  display: block;
+  margin: 12px auto;
 }
 
 .skillIconText {
@@ -11104,6 +11124,9 @@ html {
   color: black;
   border-radius: 15px;
   margin: 15px;
+  border-style: ridge;
+  border-color: dimgray;
+  font-size: 1.1em;
 }
 
 .jobLogo {
@@ -11112,4 +11135,61 @@ html {
   display: block;
 }
 
+.jobText{
+  text-align: center;
+  margin: 5%;
+}
 
+.jobImg {
+  margin: auto;
+  display: block;
+  width: 55%;
+}
+
+.chc {
+  width: 20%;
+}
+
+.cr {
+  width: 35%;
+}
+
+.ogi {
+  width: 35%;
+}
+
+.modalTitle {
+  margin: auto;
+}
+
+.job:hover{
+  background-color: lightcyan;
+  cursor: pointer;
+  transition: 250ms;
+  font-size: 1.2em !important;
+  text-decoration: underline;
+  border-color: darkgoldenrod;
+}
+
+.jobModalHeader {
+  background: darkcyan;
+  color: whitesmoke;
+}
+
+.jobSum {
+  text-align: left;
+  margin: auto;
+}
+
+.jobHeader{
+  padding: 3%;
+}
+
+.jobImgModal{
+  display: block;
+  margin: auto;
+}
+
+.jobDescription {
+  text-align: left;
+}

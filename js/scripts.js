@@ -52,3 +52,68 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+// My JavaScript
+
+// Work Experience Modals
+
+$('#jobArgus').on('click', () => {
+    
+    $("#job_Argus_Modal").modal("show");
+
+    $(".close").click(function(){
+        $("#job_Argus_Modal").modal('hide');
+    });    
+
+});
+
+$('#jobITCS').on('click', () => {
+    
+    $("#job_ITCS_Modal").modal("show");
+
+    $(".close").click(function(){
+        $("#job_ITCS_Modal").modal('hide');
+    });    
+
+});
+
+$('#jobCHC').on('click', () => {
+    
+    $("#job_CHC_Modal").modal("show");
+
+    $(".close").click(function(){
+        $("#job_CHC_Modal").modal('hide');
+    });    
+
+});
+
+$('#jobCR').on('click', () => {
+    
+    $("#job_CR_Modal").modal("show");
+
+    $(".close").click(function(){
+        $("#job_CR_Modal").modal('hide');
+    });    
+
+});
+
+$('#jobOGI1').on('click', () => {
+    
+    $("#job_OGI_Modal1").modal("show");
+
+    $(".close").click(function(){
+        $("#job_OGI_Modal1").modal('hide');
+    });    
+
+});
+
+$('#jobOGI2').on('click', () => {
+    
+    $("#job_OGI_Modal2").modal("show");
+
+    $(".close").click(function(){
+        $("#job_OGI_Modal2").modal('hide');
+    });    
+
+});
