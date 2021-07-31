@@ -4,7 +4,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Rock, Paper, Scissors Game </title>
+		<title>DNA Sequencing Application </title>
 		<meta name="author" content="Josh Stancombe">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Josh Stancombe Portfolio" />
@@ -46,7 +46,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg ms-auto ">
-							<i class="fab fa-python"></i> Rock, Paper Scissors Game
+							<i class="fab fa-java"></i> DNA Sequencing
 							<br>
 							<span class="info" id="info"><i class="fas fa-info-circle"></i> <u>Information</u></span>
 						</div>
@@ -57,7 +57,7 @@
 				<div class="row">
 					<div class="col-lg ms-auto ">
 						<div class="iframe">
-							<iframe frameborder="0" width="100%" height="100%" src="https://replit.com/@jstancombe/Rock-Paper-Scissors-Game?lite=true#RPS_game.py"></iframe>
+							<iframe frameborder="0" width="100%" height="100%" src="https://replit.com/@jstancombe/DNA-Sequencing?lite=true#Main.java"></iframe>							
 						</div>
 					</div>
 				</div>
@@ -78,21 +78,43 @@
                         <div class="container">
                             <div class="row modalHeader">
                                 <div class="col-lg ms-auto">     
-									<h2>Rock, Paper, Scissors</h2>
+									<h2>DNA Sequencing</h2>
 								</div>
                             </div>
                             <div class="row modalInfo">
 								<div class="col-lg ms-auto">  
 									<p class="modalText">
-										<br>
-										<b>Rock, Paper, Scissors Coding Challenge</b>
-										<br>
-										Project Specification: Using Python, recreate the game 'Rock, Paper, Scissors' for a user to play against the computer.
-										<ul class="modalText">
-											<li>The first player to win 3 rounds wins the game. </li> 
-											<li>Your application should be able to handle incorrect user input. </li>
-											<li>Your application should randomly generate the computers moves. </li>
-										</ul> 
+                                        <br>
+                                        <b>DNA Sequencing Coding Challenge</b>
+                                        <br>
+                                        Project Specification: The genome of an organism stores all the genetic information necessary to build and maintain that organism. It is an organism’s complete set of DNA. DNA is composed of a series of nucleotides abbreviated as:
+                                        <ul class="modalText">
+                                            <li>A: Adenine</li>
+                                            <li>C: Cytosine</li>
+                                            <li>G: Guanine</li>
+                                            <li>T: Thymine</li>
+                                            <li><em>So a strand of DNA could look something like ACGAATTCCG.</em></li> 
+                                        </ul>                                      
+                                        
+                                        <p class="modalText">Write a DNA.java program that determines whether there is a protein in a strand of DNA. A protein has the following qualities:</p>
+                                        <ul class="modalText">
+                                            <li>It begins with a “start codon”: ATG.</li> 
+                                            <li>It ends with a “stop codon”: TGA.</li> 
+                                            <li>In between, each additional codon is a sequence of three nucleotides.</li> 
+                                        </ul>
+                                        
+                                        <p class="modalText">So for example:</p>
+                                        <ul class="modalText">
+                                            <li>ATGCGATACTGA is a protein because it has the start codon ATG, the stop codon TGA, and the length is divisible by 3.</li> 
+                                            <li>ATGCGATAGA is not a protein because the sequence length is not divisible by 3, so the third condition is not satisfied.</li> 
+                                        </ul>
+                                                                                
+                                        <p class="modalText"> Here are the three DNA strands that you are going to use to test your program:</p>
+                                        <ul class="modalText">
+                                            <li>"ATGCGATACGCTTGA"</li> 
+                                            <li>"ATGCGATACGTGA"</li> 
+                                            <li>"ATTAATATGTACTGA"</li> 
+                                        </ul>
 									</p>
 								</div>
                             </div>

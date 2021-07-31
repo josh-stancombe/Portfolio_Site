@@ -11119,6 +11119,15 @@ html {
   margin-bottom: 50px;
 }
 
+.jobCat{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#prev {
+  margin-top: 10px;
+}
+
 .job {
   background: white;
   color: black;
@@ -11191,5 +11200,46 @@ html {
 }
 
 .jobDescription {
+  text-align: left;
+}
+
+.projectLang {
+  font-size: 1.1rem !important;
+  padding-bottom: 2% !important;
+  color: darkgoldenrod !important;
+}
+
+.modalImg {
+  width: 100%;
+}
+
+.modalImg:hover{
+  cursor: pointer;
+  border-style: double;
+  border-color: darkgoldenrod;
+}
+
+.myPortfolioImg {
+  height: 100%;
+  border-style: double;
+}
+
+.imgFill {
+  height: 100% !important;
+}
+
+.portfolioTitle {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.05em;
+  color: darkslategrey;
+}
+
+.xspace {
+  margin-bottom: 4rem !important;
+}
+
+.modalText {
   text-align: left;
 }
